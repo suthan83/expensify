@@ -26,7 +26,7 @@ const App = () => {
   ]
 
   const addExpenseHandler = (newExpenseData) => {
-    console.log(newExpenseData)
+    console.log('new expense data -> ' + newExpenseData)
   }
 
   return (

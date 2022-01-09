@@ -29,8 +29,8 @@ const App = () => {
 
   const addExpenseHandler = (newExpenseData) => {
     setExpenses(prevState => [newExpenseData,...prevState])
-    console.log('new expense data -> ' + newExpenseData)
   }
+
 
   return (
     <div>
